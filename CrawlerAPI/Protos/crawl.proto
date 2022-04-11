@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package crawler;
+
+message CrawlModel {
+  string url = 1;
+}
+
+message CrawlRequest {
+  CrawlModel model = 1;
+}
+
+message CrawlResponse {
+  repeated string links = 1;
+  repeated string forms = 2;
+  repeated string javascriptLibraries = 3;
+}
+
+message SourceResponse {
+  string result = 1;
+}
+
+service CrawlService {
+  rpc GetSourceCode (CrawlRequest) returns (SourceResponse) {}
+  rpc GetCrawlResult (CrawlRequest) returns (CrawlResponse) {}
+}

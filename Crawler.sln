@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrawlerAPI", "CrawlerAPI\CrawlerAPI.csproj", "{61E34A8E-CF44-443D-A509-1E76E98A3D8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrawlerAPI.Domain", "CrawlerAPI.Domain\CrawlerAPI.Domain.csproj", "{1AE80E23-B3FA-45A7-81A7-57197CEE946E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61E34A8E-CF44-443D-A509-1E76E98A3D8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61E34A8E-CF44-443D-A509-1E76E98A3D8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61E34A8E-CF44-443D-A509-1E76E98A3D8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61E34A8E-CF44-443D-A509-1E76E98A3D8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AE80E23-B3FA-45A7-81A7-57197CEE946E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AE80E23-B3FA-45A7-81A7-57197CEE946E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AE80E23-B3FA-45A7-81A7-57197CEE946E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AE80E23-B3FA-45A7-81A7-57197CEE946E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

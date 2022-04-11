@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <Protobuf Include="../CrawlerAPI/Protos/*.proto" OutputDir="Models/" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <Folder Include="Models" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Grpc.AspNetCore" Version="2.45.0-pre1" />
+      <PackageReference Include="Microsoft.Playwright" Version="1.20.2" />
+    </ItemGroup>
+
+</Project>
